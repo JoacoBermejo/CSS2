@@ -1,0 +1,121 @@
+
+/*  General */
+body{
+  margin-top: 15vh;
+}
+
+h3{
+  margin-top: 10px;
+  text-align: center;
+}
+
+hr{
+  margin: 20px;
+}
+
+a, a:hover, a:active{
+  color: #39875E;
+}
+
+.boton{
+  display:block;
+  text-align:center;
+  margin-top: 10px !important;
+}
+
+.btn-default {
+    background-color: #4EB980 !important;
+    border-style: none !important;
+    color: white !important;
+}
+
+
+/* Navbar */
+#lupa{
+  float:right;
+}
+
+.titulo{
+  text-align: center;
+/*   width: 100%; */
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header{
+    margin-top: 15px !important;
+}
+
+.opt{
+  width:100%;
+  text-align: left;
+}
+
+#opciones{
+  display:none;
+}
+
+.close {
+    margin-right: 5px;
+}
+
+
+
+/* Content */
+.lead{
+    font-size: 17.5px !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.caja{
+  padding-top: 20px;
+  border: 2px solid silver;
+  background-color: #eee;
+  margin-left:60px;
+}
+
+.glyphicon{
+  font-size: 15px;
+}
+
+
+
+/* Map */
+#map {
+  width: 100%;
+  height: 400px;
+}
+
+
+
+/* Footer */
+#footer{
+    background-color: transparent !important;
+    height: 20px !important;
+}
+
+
+
+/* Media-Query */
+@media (min-width: 768px){
+.navbar-toggle {
+     display: inline-block;
+}
+}
+@media screen and (min-width:992px){
+  .caja{
+    margin-top:117px;
+  }
+}
+@media screen and (max-width:992px){
+  #map{
+    width:100%;
+  }
+}
+@media screen and (max-width:992px){
+  .caja{
+    margin-left:0px;
+  }
+}

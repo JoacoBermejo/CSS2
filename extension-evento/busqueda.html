@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>eXploratio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="busqueda.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Helvetica+Neue" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<header>
+    <nav class="row navbar navbar-default navbar-fixed-top">
+	 <a class="navbar-brand" href="#title" style="text-align: center; width:100%;">eXploratio</a>
+    </nav>
+</header>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class='container-fluid text-center'>
+  <div class='row'>
+    <div class='col-md-1'></div>
+    <div class='col-md-10 col-xs-10'>
+    <form method="post" >
+      <fieldset>
+      
+	<div class="row">
+            <div class="col-md-4 col-xs-12 text-center">
+                <h3>Fecha</h3><br />
+                    <div class="row box well">
+                            <div class="col-md-12 dates">	
+                                <p class="texto">Desde</p>
+                                <input type="date" class="fecha" name="dia" maxlength="10"/>
+                            </div>
+                            <div class="col-md-12 dates">
+                                <p class="texto">Hasta<p>
+                                <input type="date" class="fecha" name="dia" maxlength="10"/>
+                            </div>
+                        </div>
+            </div>        
+            <div class="col-md-8 col-xs-12">
+                    <h3>Actividades</h3><br />
+                        <div class="box well">
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Artes Visuales</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" name="">Salud</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Música</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Muestras</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Teatro</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Infantiles</p>
+                            </div>
+                            
+                            <div id="oculto" class="hide">
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Medio ambiente</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" name="">Movilidad</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Visitas guiadas</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Economía Solidaria</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Danza</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Artes urbanas</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Capacitación</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Mascotas</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Festivales</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Plan Estratégico</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Discapacidad</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Deporte y aire libre</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Trámites</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Diversidad</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Concursos y convocatorias</p>
+                                <div class="col-lg-2"></div>
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Presupuesto Participativo</p>
+                            </div>
+                            <div class="checkbox row">
+                                <p class="checkbox-inline col-lg-5 col-xs-5"><input type="checkbox" value="">Charlas y Congresos</p>
+                                <div class="col-lg-2"></div>
+                                
+                            </div>
+                        </div>
+                            <a id="ver-mas">Ver más</a>
+                        </div>
+            </div>
+        </div>
+        
+        
+	<div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+                        
+            </div>
+        </div>
+          <br/>
+          
+      <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+    </fieldset>
+  </form>
+</div>
+</div>
+</div>
+
+
+</body>
+<script>
+    var dropdown = document.getElementById("oculto");
+    var a = document.getElementById("ver-mas");
+    var onClick = function() {
+		var action = dropdown.classList.toggle("hide");
+		if(!action){
+                    a.innerHTML = "Ver menos";
+		} else {
+                    a.innerHTML = "Ver más";
+		}
+    }
+    a.addEventListener("click",onClick);
+</script>
+</html>
