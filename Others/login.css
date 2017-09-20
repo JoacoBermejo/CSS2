@@ -1,0 +1,18 @@
+.fieldset-login{
+  text-align: center;
+}
+.titulo-login{
+  text-align: center;
+}
+.body-login{
+  margin-top: 40px;
+}
+.form-login{
+  border: 1px solid dimgrey;
+  padding:15px;
+  background-color: #ededed;
+}
+.campo-login{
+  width: 70%;
+  height: 5vh;
+}

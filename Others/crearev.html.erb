@@ -1,0 +1,57 @@
+<h1 id="titulo-crearev">Creá tu evento</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 col-xs-1 col-lg-2"> </div>
+    <div class="col-md-8 col-xs-10 col-lg-8">
+      <!-- <div class="container-fluid"> -->
+          <form method="post" class="">
+            <fieldset class="fieldset-crearev">
+              <div class="row">
+              <div class="col-md-6 col-lg-6 form-group">
+                <label class="label-newuser" for='name'>Nombre del evento</label> <br/>
+                <input class='campo-newuser' type="text" id="name" name="name" value=""></input>
+                <br/><br/>
+                <label class="label-newuser" for='web'>Sitio Web</label> <br/>
+                <input class='campo-newuser' type="text" id="web" name="web" value=""></input>
+                <br/><br/>
+                <label class="label-newuser" for='etiquetas'>Etiquetas</label> <br/>
+                <input class='campo-newuser' type="text" id="etiquetas" name="etiquetas" value=""></input>
+                <br/><br/>
+                <label class="label-newuser" for='mini-desc'>Breve descripción</label> <br/>
+                <input class='campo-newuser' type="text" id="mini-desc" name="mini-desc" value=""></input>
+                <br/><br/>
+              </div>
+              <div class="col-md-6 col-lg-6 form-group">
+                <label class="label-newuser" for='fecha'>Fecha</label> <br/>
+                <input class='campo-newuser' type="text" id="fecha" name="fecha" value=""></input>
+                <br/><br/>
+                <label class="label-newuser" for='hora'>Hora</label> <br/>
+                <input class='campo-newuser' type="text" id="hora" name="hora" value=""></input>
+                <br/><br/>
+                <label class="label-newuser" for='lugar'>Lugar</label> <br/>
+                <input class='campo-newuser' type="text" id="lugar" name="lugar" value=""></input>
+                <br/><br/>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle dropdown-crearev" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Tipo de entrada
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="#">Pago</a></li>
+                    <li><a href="#">Gratis</a></li>
+                    <li><a href="#">A la gorra</a></li>
+                  </ul>
+                </div>
+              </div>
+              <label class="label-newuser label-crearev" for='textarea-createv'>Descripción del evento</label> <br/>
+              <textarea id="textarea-createv" rows="5" cols="30"></textarea>
+              <br/><br/>
+              <input type="submit" class="btn btn-default submit-crearev" value="Crea tu evento!"></input>
+            </fieldset>
+          </form>
+        </div>
+      <!-- </div> -->
+    </div>
+    <div class="col-md-2 col-xs-1 col-lg-2"> </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+.fieldset-newuser{
+  text-align: center;
+}
+.titulo-newuser{
+  text-align: center;
+}
+.body-newuser{
+  margin-top: 40px;
+}
+.form-newuser{
+  border: 1px solid dimgrey;
+  padding:15px;
+  background-color: #ededed;
+}
+.campo-newuser{
+  width: 70%;
+  height: 5vh;
+}
+.campo2-newuser{
+  width: 35%;
+  height:5vh;
+}
+body{
+  background-image: url(../images/honey-im-subtle.png) !important;
+}

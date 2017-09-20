@@ -13,8 +13,8 @@ hr{
   margin: 20px;
 }
 
-a, a:hover, a:active{
-  color: #39875E;
+a, a:hover, a:active, a:visited {
+    color: #ca1724 !important;
 }
 
 .boton{
@@ -37,7 +37,6 @@ a, a:hover, a:active{
 
 .titulo{
   text-align: center;
-/*   width: 100%; */
   height: 100%;
   font-weight: bold;
   font-size: 20px;
